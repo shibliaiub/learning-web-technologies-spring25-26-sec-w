@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<section id="content">
+
+  <h1 id="heading">Hello from Shibli!</h1>
+  <p class="text">Welcome to my page..</p>
+  <p class="text">Try to learn DOM.</p>
+  <p class="text">DOM stand for doccument object model.</p>
+  </section>
+
+  <p id="footer">Copyright</p>
+
+  <script>
+    const h1=document.getElementById('heading')
+    console.log(h1.innerText)
+    // h1.innerText='Hello from SHIBLI!'
+        // h1.innerHTML='Hello from <em> SHIBLI!</em>'
+
+
+    // h1.remove()
+
+    const h2 = document.createElement('h2')
+    h2.innerHTML= 'Hello from <em> SHIBLI! </em> Again'
+
+    const contentSection = document.getElementById('content')
+    contentSection.appendChild(h2)
+
+
+</script>
+</body>
+</html>
