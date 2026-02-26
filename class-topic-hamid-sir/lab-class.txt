@@ -1,0 +1,28 @@
+JS output show 
+
+
+1. Inner html
+2. Document.write
+Display the show hue
+
+3.console.log
+Console er under e chole jabe
+
+
+
+
+
+Document.write diye js er moto use kora jay
+
+Innerhtml - element er value control kora jay
+
+
+Event listener
+
+1. On submit -form er mode
+2. On click- button er mode
+3. On change
+4. On keyup
+
+
+Dbounche er kaj holo 
