@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form onsubmit="return collect_data();">
+      <table>
+        <tr>
+          <td>Email</td>
+          <td>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <p id="emailErr" style="color: red"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" name="Login" id="Login" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
