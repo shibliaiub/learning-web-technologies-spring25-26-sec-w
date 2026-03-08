@@ -1,0 +1,57 @@
+JS output show 
+
+
+1. Inner html
+2. Document.write
+Display the show hue
+
+3.console.log
+Console er under e chole jabe
+
+4. Alert
+
+
+
+Document.write diye js er moto use kora jay
+
+Innerhtml - element er value control kora jay
+
+
+Event listener
+
+1. On submit -form er mode
+2. On click- button er mode
+3. On change
+4. On keyup
+
+
+Dbounche er kaj holo 
+
+
+JS MID Term
+
+
+Set C
+
+1 code writing.    20
+1 output tracing  20
+1 short question 10   Set A Set B  almost same
+
+
+SET A
+    - [ ] Mcq 20*1.5=30
+    - [ ] Output 2*5=10
+    - [ ] Code 1*20=20
+    - [ ] Total 60
+
+
+
+
+- [ ] JS events
+- [ ] JS DOM manipulation 
+    - [ ] Output format
+    - [ ] Innerhtml
+    - [ ] Style
+    - [ ] All JS fundamentals
+    - [ ] String Manipulation
+    - [ ] 
