@@ -8,7 +8,7 @@ Display the show hue
 3.console.log
 Console er under e chole jabe
 
-
+1. Alert
 
 
 
@@ -26,3 +26,32 @@ Event listener
 
 
 Dbounche er kaj holo 
+
+
+JS MID Term
+
+
+Set C
+
+1 code writing.    20
+1 output tracing  20
+1 short question 10   Set A Set B  almost same
+
+
+SET A
+    - [ ] Mcq 20*1.5=30
+    - [ ] Output 2*5=10
+    - [ ] Code 1*20=20
+    - [ ] Total 60
+
+
+
+
+- [ ] JS events
+- [ ] JS DOM manipulation 
+    - [ ] Output format
+    - [ ] Innerhtml
+    - [ ] Style
+    - [ ] All JS fundamentals
+    - [ ] String Manipulation
+    - [ ] 
