@@ -8,7 +8,7 @@ Display the show hue
 3.console.log
 Console er under e chole jabe
 
-1. Alert
+4. Alert
 
 
 
