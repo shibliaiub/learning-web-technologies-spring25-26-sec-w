@@ -1,0 +1,1 @@
+let status = age >= 18 ? "Adult" : "Minor";
