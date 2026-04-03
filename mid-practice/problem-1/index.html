@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation - External CSS/JS</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+
+        <!-- Form with onsubmit attribute calling validateForm() from external JS -->
+        <form onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Link to external JavaScript (placed at end of body for better performance) -->
+    <script src="script.js"></script>
+</body>
+</html>
