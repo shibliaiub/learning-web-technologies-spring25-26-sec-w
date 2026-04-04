@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52,152,219,0.5);
+}
+
+.message {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+/* Class for red text (used for age > 50) */
+.red-text {
+    color: red;
+    font-weight: bold;
+}
