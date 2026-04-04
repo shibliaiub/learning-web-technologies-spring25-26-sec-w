@@ -1,69 +1,70 @@
-/* Reset and grid background (10px × 10px grid lines) */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.page {
+  width: 700px;
+  margin: 40px auto;
+  padding: 20px 0 30px 0;
 }
 
 .grid-background {
-    min-height: 100vh;
-    background-image: 
-        linear-gradient(to right, #ddd 1px, transparent 1px),
-        linear-gradient(to bottom, #ddd 1px, transparent 1px);
-    background-size: 10px 10px;
-    padding: 20px;   /* aligns container edges to grid lines (multiple of 10) */
+  background-image:
+    linear-gradient(to right, #dce8f5 1px, transparent 1px),
+    linear-gradient(to bottom, #dce8f5 1px, transparent 1px);
+  background-size: 10px 10px;
 }
 
-/* Info panel */
-.info-panel {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 15px 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    max-width: 500px;
-    border: 1px solid #aaa;
-}
-
-.info-panel h2 {
-    margin-bottom: 10px;
-    color: #2c3e50;
+h2 {
+  margin: 0 0 20px 0;
+  font-size: 34px;
+  font-weight: 700;
 }
 
 #dimensions {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #1e4668;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 12px;
+  border: 1px solid #cfcfcf;
 }
 
-/* Container box – 300px × 200px, aligned to grid */
 .container {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    background-color: #f9eec1;
-    border: 2px solid #333;
-    box-sizing: border-box;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #222;
+  background-color: transparent;
 }
 
-/* Smaller box – positioned 10px from bottom and right */
-.bottom-right-box {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 100px;
-    height: 40px;
-    background-color: #6ab0de;
-    border: 1px solid #1f4e79;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    line-height: 38px;   /* vertically center text */
-    font-size: 14px;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    border-radius: 4px;
+.container-text {
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.small-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  border: 2px solid #222;
 }

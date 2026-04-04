@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout – Absolute Positioning</title>
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Absolute Position Example</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="grid-background">
-        <div class="info-panel">
-            <h2>Absolute Position Example</h2>
-            <div id="dimensions"></div>
-        </div>
+  <div class="page grid-background">
+    <h2>Absolute Position Example</h2>
 
-        <!-- Container box (300px × 200px, aligned to grid) -->
-        <div class="container" id="containerBox">
-            <div class="bottom-right-box" id="innerBox">
-                Bottom Right
-            </div>
-        </div>
+    <div class="container" id="containerBox">
+      <div class="container-text">Container Area</div>
+      <div class="small-box" id="innerBox">
+        Bottom<br>Right
+      </div>
     </div>
 
-    <!-- Link to external JavaScript -->
-    <script src="script.js"></script>
+    <div id="dimensions"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
