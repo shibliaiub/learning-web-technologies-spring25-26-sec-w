@@ -1,0 +1,69 @@
+/* Reset and grid background (10px × 10px grid lines) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.grid-background {
+    min-height: 100vh;
+    background-image: 
+        linear-gradient(to right, #ddd 1px, transparent 1px),
+        linear-gradient(to bottom, #ddd 1px, transparent 1px);
+    background-size: 10px 10px;
+    padding: 20px;   /* aligns container edges to grid lines (multiple of 10) */
+}
+
+/* Info panel */
+.info-panel {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    border: 1px solid #aaa;
+}
+
+.info-panel h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#dimensions {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1e4668;
+}
+
+/* Container box – 300px × 200px, aligned to grid */
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f9eec1;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Smaller box – positioned 10px from bottom and right */
+.bottom-right-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #6ab0de;
+    border: 1px solid #1f4e79;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;   /* vertically center text */
+    font-size: 14px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}

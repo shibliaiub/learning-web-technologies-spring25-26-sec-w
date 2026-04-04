@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Product Management</h2>
+        <div class="product-info">
+            <p><strong>Product:</strong> Premium Item</p>
+            <p><strong>Unit Price:</strong> 1000 Taka</p>
+        </div>
+
+        <div class="form-group">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" value="0" min="0">
+        </div>
+
+        <div class="form-group">
+            <label for="totalPrice">Total Price:</label>
+            <input type="text" id="totalPrice" readonly value="0">
+        </div>
+
+        <div class="note">
+            * Total updates automatically. If total exceeds 1000 Taka, you get a gift coupon alert.
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
