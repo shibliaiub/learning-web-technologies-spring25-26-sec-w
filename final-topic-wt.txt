@@ -1,0 +1,30 @@
+Web tech final
+
+Js-client side, validation
+
+Php	- server side validation,1 ti thakle server side Shaka unit
+
+
+MVC-
+
+-model=> database
+-view => ui/design
+-controller => validation/ database communication
+
+
+
+
+login-loginValidation
+
+-no-not validated-show error message at login(view)
+-yes-valid-authenticated kina-dashboard(view)-login 
+
+php superglobal-
+1. _POST
+2._GET
+
+
+
+Display
+
+-echo
