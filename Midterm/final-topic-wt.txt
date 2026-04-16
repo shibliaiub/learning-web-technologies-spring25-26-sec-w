@@ -48,10 +48,10 @@ every topic only one group
 
 
  Topic for final
- 1. basic php
- 2. form validation
- 3. MVC Arch
- 4. Session - Cookie
+ 1. basic php -> ok
+ 2. form validation -> ok
+ 3. MVC Arch -> ok
+ 4. Session -> ok Cookie-> 
  5. AJAX - JESON
  6. Database Connection and CRUD
  

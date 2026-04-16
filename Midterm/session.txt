@@ -1,0 +1,24 @@
+session hcce storage er moto
+
+key value pair
+
+name-> Rahim
+key     value
+
+
+php superglobal-
+1. _POST
+2._GET
+
+
+header-> redirect kora er kaj
+
+
+session start()-> na likhe session related kono kaj e kora jabe na
+
+session unset-> 
+
+
+session destroy-> 
+
+
