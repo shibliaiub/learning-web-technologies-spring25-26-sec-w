@@ -28,3 +28,30 @@ php superglobal-
 Display
 
 -echo
+
+
+
+
+final- 50%
+quiz 20%
+project 20%
+present 10%
+
+project-hackathon
+6hr -laptop must carry
+same question whole versity
+every topic only one group
+
+
+4 joner 16 ta crud operation. 4 ta user.
+ 
+
+
+ Topic for final
+ 1. basic php
+ 2. form validation
+ 3. MVC Arch
+ 4. Session - Cookie
+ 5. AJAX - JESON
+ 6. Database Connection and CRUD
+ 
