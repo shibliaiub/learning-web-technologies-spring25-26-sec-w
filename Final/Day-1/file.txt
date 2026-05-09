@@ -1,0 +1,4 @@
+$_FILES = superglobal
+
+uploadHandler.php te file rakhbop only. fa==databse e kono file thakbe na 
+

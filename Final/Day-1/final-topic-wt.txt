@@ -51,7 +51,14 @@ every topic only one group
  1. basic php -> ok
  2. form validation -> ok
  3. MVC Arch -> ok
- 4. Session -> ok Cookie-> 
+ 4. Session -> ok Cookie-> ok
  5. AJAX - JESON
  6. Database Connection and CRUD
  
+
+ QUIZ-1,2,3,4.
+ Mcq
+ //26.4.26
+ 3.5.26
+
+ 7.5.26 hackathon

@@ -1,0 +1,15 @@
+cookie o storage
+
+browser er cookie te save hy.
+
+-> first check korbe history te cookie save ache kina
+
+-> setcookie -> key.   value
+
+superglobal
+-_POST
+-_GET
+-request  
+-session
+-cookie
+
